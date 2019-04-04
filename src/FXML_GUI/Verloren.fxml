@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" prefHeight="472.0" prefWidth="811.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXML_GUI.VerlorenController">
+   <children>
+      <Button layoutX="42.0" layoutY="400.0" mnemonicParsing="false" onAction="#handleBtnSpielen" prefHeight="51.0" prefWidth="167.0" text="Erneut Spielen" />
+      <Button layoutX="601.0" layoutY="400.0" mnemonicParsing="false" onAction="#handleBtnZurück" prefHeight="51.0" prefWidth="167.0" text="Zurück" />
+      <Text layoutX="209.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sie haben Verloren" textAlignment="CENTER" wrappingWidth="392.13671875">
+         <font>
+            <Font size="67.0" />
+         </font>
+      </Text>
+      <Text fx:id="punktzahl" layoutX="356.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="98.1181640625">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

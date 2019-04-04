@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" prefHeight="472.0" prefWidth="811.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXML_GUI.MenuController">
+   <children>
+      <Button layoutX="23.0" layoutY="407.0" mnemonicParsing="false" onAction="#handleBtnSpielen" prefHeight="51.0" prefWidth="167.0" text="Spielen" />
+      <Button layoutX="216.0" layoutY="407.0" mnemonicParsing="false" onAction="#handleBtnAnleitung" prefHeight="51.0" prefWidth="167.0" text="Anleitung" />
+      <Button layoutX="435.0" layoutY="407.0" mnemonicParsing="false" onAction="#handleBtnOption" prefHeight="51.0" prefWidth="167.0" text="Option" />
+      <Button layoutX="630.0" layoutY="407.0" mnemonicParsing="false" onAction="#handleBtnExit" prefHeight="51.0" prefWidth="167.0" text="Beenden" />
+   </children>
+</AnchorPane>

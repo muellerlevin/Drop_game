@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" onKeyPressed="#keyPressed" onKeyReleased="#keyRealeased" prefHeight="700.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXML_GUI.SpielController">
+   <children>
+      <Button fx:id="pause" layoutX="14.0" layoutY="11.0" mnemonicParsing="false" onAction="#pauseBT" text="Pause" />
+      <Text fx:id="score" fill="#fc0606" fontSmoothingType="LCD" layoutX="456.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Score: " textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <Label fx:id="txtpause" alignment="CENTER" layoutX="128.0" layoutY="264.0" prefHeight="148.0" prefWidth="294.0" text="Pause" textAlignment="JUSTIFY">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

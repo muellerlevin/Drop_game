@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" prefHeight="472.0" prefWidth="811.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXML_GUI.AnleitungController">
+   <children>
+      <Button layoutX="23.0" layoutY="407.0" mnemonicParsing="false" onAction="#handleBtnZurück" prefHeight="51.0" prefWidth="167.0" text="Zurück" />
+      <Text layoutX="313.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Anleitung" wrappingWidth="184.13671875">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </Text>
+      <Label fx:id="TxtAnleitung" layoutX="176.0" layoutY="116.0" text="Label" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
